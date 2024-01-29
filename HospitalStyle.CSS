@@ -1,0 +1,125 @@
+.email svg {
+  color:black;
+ padding:10px 0 0 0;
+  vertical-align: middle;
+ }
+
+.email{
+
+text-align:center;
+display:flex;
+justify-content:center;
+border-bottom: 5px solid #00b5cc;
+
+}
+
+p{
+text-align:center;
+margin-top:2%;
+}
+
+
+
+
+.email a{
+color:black;
+text-align:center;
+
+}
+
+.email{
+text-align:center;
+}
+h3 {
+text-align:center;
+
+}
+
+
+
+.email svg:hover{
+color:#00b5cc;}
+
+
+.address img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Mission, .Value, .Vision{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5px;
+    margin-bottom:5px;
+
+text-align:center;
+background:var(--bg-h);
+padding:10px;
+width:50%;
+}
+
+.desgin{
+border-bottom: 5px solid #00b5cc;
+padding:20px;
+}
+
+.hospitalImage{
+display:flex;
+gap: 5px;
+
+}
+
+.image{
+  flex: 100%;
+  padding:10px;
+  justify-content:space-between;
+  
+}
+h4 {
+text-align:center;
+}
+
+.image img{
+width:40%;
+height:80%;
+ margin:20px;
+ 
+}
+
+
+.image{
+
+display:flex;
+justify-content:space-around;
+}
+
+.image svg{
+  color:black;
+ margin-top:150px;
+}
+
+
+
+.arrow{
+display:flex;
+align-items:center;
+}
+
+.imgaeTitle {
+display:flex;
+justify-content:space-around;
+}
+
+h4{
+margin-top:-2%;
+}
+
+#lab{
+padding-left:5%;
+}
+#clinc{
+padding-right:7%;
+}

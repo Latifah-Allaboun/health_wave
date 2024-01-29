@@ -1,0 +1,188 @@
+
+
+/*Shadin*/
+.flexbox{
+display: flex;
+/*background-color: lightblue;*/
+justify-content: space-between;
+clear: right;
+margin-bottom: 20px;
+flex-wrap: wrap;
+width:1180px;
+}
+
+/*.PN, #patientName{
+margin-top:50px;
+margin-right: 5px;
+}
+
+.DD{
+margin-top:50px;
+margin-right: 5px;
+margin-left: 20px;
+}
+*/
+#DischargeDate{
+margin-top:50px;
+margin-right: 5px;
+}
+
+#filterbyW{
+float: right;
+margin-bottom: 20px;
+margin-right:270px;
+}
+
+.flexbox div{
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+ .flexbox div img{
+  width:200px; 
+  height:200px;}
+  
+ h3{
+ text-align:center;
+ }   
+ 
+div#P1Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ div#P2Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ 
+ div#P3Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ div#P4Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ div#P5Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ div#P6Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ div#P7Info
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+right:0%;
+top:100%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+visibility: hidden;
+ }  
+ 
+ 
+ div#PInfoEmpty
+{
+background-color :#003153 ;
+color:white;
+font-size:1.4em;
+position:absolute;
+/*left:75%;*/
+right:0%;
+top:40%;
+border-radius: 25px;
+margin-left: 10%;
+border: 3px solid black;
+height: 350px;
+width : 210px;
+visibility: hidden;
+ }  
+ 
+ .flexbox p{
+ font-size: 0.6em;
+ }  
+
+
+
+
+
+
+
+
+
+
+

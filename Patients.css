@@ -1,0 +1,41 @@
+/*patientspage*/
+
+
+#PatientsButtons
+    {
+       text-align:center;
+    }
+    
+    .newpatientButton
+       {
+          background-color:#003153;
+          border: darkblue;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration:none;
+          display:inline-block;
+          font-size: 24px;
+    
+       }
+
+ .patientmanagementButton
+       {
+          background-color:#003153;
+          border: darkblue;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration:none;
+          display:inline-block;
+          font-size: 24px;
+    
+       }
+       
+       div{
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0%;
+       margin-bottom:18%;
+       }
+/*end patientspage*/

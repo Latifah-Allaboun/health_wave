@@ -1,0 +1,251 @@
+
+.welcome {
+padding:50px 0px 0px;
+border-bottom: 5px solid #00b5cc;
+
+}
+
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-align: center;
+  margin-left:2%;
+ 
+}
+
+.indexa{
+  color: #003153;
+  font-weight: bold;
+  text-align: center;
+  display:grid;
+  text-decoration:none;
+}
+
+a:hover{
+  
+  color:#00b5cc;
+
+}
+
+/*chart*/
+
+.heading {
+  text-align:center;
+  margin-bottom:-5%;
+      margin-top: 150px;
+  margin-right:55px;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     @media (max-width: 390px){
+     flex-direction: column;
+     }
+}
+
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 50%;
+    color: black;
+    overflow: hidden;
+    align-items:center;
+
+
+}
+
+
+
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Ophthalmology{
+    background-color: #F66D44;
+    height:50%;
+    width: 50%;
+    display: block;
+}
+
+.Nephrology{
+    background-color: #FEAE65;
+    height:50%;
+    width: 50%;
+}
+
+.Cardiology{
+    background-color: #E6F69D;
+    height:50%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50%;
+    clip-path: polygon(0 0, 100% 0%, 0% 100%);
+}
+
+.Dentistry{
+    background-color: #AADEA7;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    clip-path:polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+.Dermatology{
+    background-color: #64C2A6;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
+.Orthopedics{
+    background-color: #2D87BB;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    clip-path:polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+
+.pie-wrap .Dentistry p{
+    position: absolute;
+    top: 140px;
+}
+.pie-wrap .Dentistry p:first-child{
+    top: 120px;
+}
+
+.pie-wrap .Dermatology p{
+    position: absolute;
+    top: 20px;
+}
+
+.pie-wrap .Dermatology p:first-child{
+    top: 0px;
+}
+
+.pie-wrap .Cardiology p, .pie-wrap .Orthopedics p{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
+.pie-wrap .Cardiology, .pie-wrap .Orthopedics{
+    justify-content: flex-start;
+}
+
+.pie-wrap .Cardiology p:first-child, .pie-wrap .Orthopedics p:first-child{
+    top: 100px;
+}
+
+.entry .entry-value{
+    display: none;
+    transition: all 500ms linear;
+}
+.entry:hover .entry-value{
+    display: block;
+}
+
+.entry{
+    transition: all 500ms linear ;
+}
+.entry:hover{
+    filter: invert();
+}
+
+.key-wrap label{
+    display: block;
+    border: 1px solid;
+    width: auto;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    }
+input[type="radio"]{
+    display: none;
+}
+
+
+.Ophthalmology-label{
+    background-color: #F66D44;
+}
+.Nephrology-label{
+    background-color: #FEAE65;
+}
+.Cardiology-label{
+    background-color: #E6F69D;
+}
+.Dentistry-label{
+    background-color: #AADEA7;
+}
+.Dermatology-label{
+    background-color: #64C2A6;
+}
+.Orthopedics-label{
+    background-color: #2D87BB;
+}
+
+
+.text{
+    display: none;
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 5px solid ;
+    border-top: 5px solid ;
+}
+.key-wrap label:active{
+    opacity: .5;
+}
+
+.Ophthalmology-key:checked ~ .Ophthalmology-text, .Nephrology-key:checked ~ .Nephrology-text, .Cardiology-key:checked ~ .Cardiology-text,  .Dentistry-key:checked ~ .Dentistry-text, .Dermatology-key:checked ~ .Dermatology-text, .Orthopedics-key:checked ~ .Orthopedics-text{
+    display: block;
+}
+
+.container a svg:hover{
+  color:#00b5cc;
+}
+
+
+
+.container a svg{
+  color:#003153;
+}
+/*End chart*/
+
+
+
+
+
+
+
+

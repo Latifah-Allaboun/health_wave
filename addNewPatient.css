@@ -1,0 +1,29 @@
+form{
+ height: 50%;
+ width: 95%;
+ margin-left: 2%;
+ margin-right: 2%;
+ margin-top: 2%;
+ margin-bottom:2%;
+ text-align : justify;
+ }
+ 
+ h3{
+  color: var(--hcolor);
+  font-weight : bold;
+  text-shadow: .2em .2em .3em gray;
+ }
+ 
+ input{
+  background-color : #e9eef5;
+ }
+ 
+ input[type=submit]{
+  border: 2px solid #e9eef5;
+  background-color: #305882;
+  color: #e9eef5;
+ }
+ 
+ #display p{
+ margin-left: 2%;
+ }

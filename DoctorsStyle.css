@@ -1,0 +1,51 @@
+
+
+
+/*Doctorspage*/
+
+  
+
+    .DoctorsHeader
+          {
+           text-align:left;
+          }
+    /*.doctorsList{
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: space-around;
+                      align-items: center;
+                    align-content: space-around;
+                      background-color: var(--fcolor);
+                      flex-wrap: wrap;
+                      float: left;      
+                    }*/
+
+    .doctorsList > div {
+                      background-color: var(--f1color);
+                      margin: 10px;
+                      padding: 20px;
+                      font-size: 30px;
+                      text-shadow: 2px 2px 5px #00b5cc ;
+                    }
+    .Department 
+       {
+         color:#00b5cc;
+         text-align:left;
+         font-family:monospace;
+         font-size:60%;
+       }
+
+    .DoctorsSorting
+    {
+         color:#00b5cc;
+         text-align:right;
+         font-family:sans-serif;
+         font-size:100%;   
+    }
+
+
+/* end Doctorspage*/
+
+
+
+
